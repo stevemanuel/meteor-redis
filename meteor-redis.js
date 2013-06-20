@@ -1,0 +1,1 @@
+redis = Npm.require('redis');
