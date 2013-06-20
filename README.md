@@ -13,12 +13,12 @@ a simple meteorite package, providing a wrapper for the [node-redis](https://git
 ## In your Meteor project:
 
 Somewhere in your `server` code, have the app connect to Redis:  
-`
+```
 Meteor.startup(function() {  
   // connect to Redis  
   client = redis.createClient();  
 });
-`
+```
 
 `meteor-redis` exposes the `redis` object, so its already available to you to implement wherever it makes sense to do so.
 
