@@ -2,8 +2,8 @@
   "name": "redis",
   "description": "Meteor package to wrap redis driver. Includes hiredis.",
   "homepage": "https://github.com/stevemanuel/meteor-redis",
-  "author": "Steve Manuel https://twitter.com/stevemanuel",
+  "author": "Steve Manuel (https://twitter.com/stevemanuel)",
   "version": "0.1.0",
-  "git": "https://github.com/stevemanuel/meteor-redis",
+  "git": "https://github.com/stevemanuel/meteor-redis.git",
   "packages" : {}
 }
