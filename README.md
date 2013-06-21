@@ -13,7 +13,7 @@ a simple meteorite package for [Atmosphere](https://atmosphere.meteor.com), prov
 ## In your Meteor project:
 
 Somewhere in your `server` code, have the app connect to Redis:  
-```
+```javascript
 Meteor.startup(function() {  
   // connect to Redis  
   client = redis.createClient();  
