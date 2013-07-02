@@ -8,5 +8,5 @@ Package.on_use(function(api, where) {
 
 Npm.depends({
   hiredis: '0.1.15',
-  redis: '0.8.3'
+  redis: '0.8.4'
 });
