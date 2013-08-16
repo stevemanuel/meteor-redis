@@ -3,6 +3,9 @@ Package.describe({
 });
 
 Package.on_use(function(api, where) {
+  if (api.export) {
+    api.export('redis');
+  }
   api.add_files('meteor-redis.js', 'server');
 });
 
